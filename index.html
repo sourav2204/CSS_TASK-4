@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+      }
+
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        background-color: #15e7ee;
+        color: blue;
+      }
+
+      li a.main {
+        background-color: orange;
+        color: white;
+      }
+
+      li a:hover:not(.main) {
+        background-color: #555;
+        color: white;
+      }
+      .box {
+        width: 200px;
+        padding: 5px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Vertical Navigation Bar</h2>
+    <div class="box">
+      <ul>
+        <li><a class="main">Home</a></li>
+        <li><a href="#Java">Java</a></li>
+        <li><a href="#CSS">CSS</a></li>
+        <li><a href="#HTML">HTML</a></li>
+        <li><a href="#Bootstrap">Bootstrap</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+<!--Coded by Sourav-->
